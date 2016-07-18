@@ -38,7 +38,7 @@
     <nav class="navbar navbar-inverse">
         <div class="container-fluid">
             <ul class="nav navbar-nav">
-                <li class="dropdown"><a href="/">Начало</a></li>
+                <li class="dropdown"><a href="">Начало</a></li>
                 <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">За Хакатоните<span
                                 class="caret"></span></a>
                     <ul class="dropdown-menu">

@@ -10,9 +10,7 @@ class HomeController extends Controller {
 
     public function index()
     {
-        $content = 'home';
-
-        return view('home', compact('content'));
+        return view('home');
     }
 
     public function hackathons()

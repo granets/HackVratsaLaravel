@@ -22,3 +22,6 @@ Route::get('code4tech', 'HomeController@code4tech');
 Route::get('program', 'HomeController@program');
 
 Route::get('teams', 'TeamsController@index');
+
+Route::get('teams/{id}', 'TeamsController@show');
+

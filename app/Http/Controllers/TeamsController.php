@@ -15,4 +15,10 @@ class TeamsController extends Controller
         $teams = Team::all();
         return view('teams', compact('teams'));
     }
+
+    public function show($id)
+    {
+        $team = Team::find($id);
+        return view('team', compact('team'));
+    }
 }
