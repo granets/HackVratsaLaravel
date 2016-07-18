@@ -1,0 +1,163 @@
+// @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Tahoma';
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+body {
+    background-image: url('../../img/grey.jpg');
+}
+
+pre {
+    display: none;
+}
+
+.strong{
+    font-weight: bold;
+}
+
+.faq-question{
+    font-weight: bold;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.textContainer {
+    height: 100px;
+    line-height: 100px;
+}
+
+.textContainer h2 {
+    vertical-align: middle;
+    font-family: 'Product Sans', Arial, sans-serif;
+    display: inline-block;
+    font-size: 42px;
+}
+
+::selection {
+    background: #90FF00; /* WebKit/Blink Browsers */
+}
+
+::-moz-selection {
+    background: #90FF00; /* Gecko Browsers */
+}
+
+.container {
+    margin-top: 3%;
+}
+
+.footer {
+    background-color: #FFF;
+    text-align: center;
+    padding: 5px;
+    border-radius: 3px;
+    margin-top: 3%;
+}
+
+.wrapper {
+    background-color: #FFF;
+    border-radius: 3px;
+    margin-left: 0;
+    width: 100%;
+}
+
+.main {
+    float: left;
+    border-right: 1px solid #EAEAEA;
+}
+
+.right-sidebar {
+    padding: 10px;
+}
+
+.navbar-inverse {
+    border: none;
+}
+
+.dropdown:hover {
+    background-color: green;
+}
+
+.img-logo{
+    display: block;
+    height: 100px;
+}
+
+.container {
+    margin-top: 1%;
+}
+
+img#ecommera {
+    margin-top: 33px;
+}
+
+#vratsa {
+    margin-top: 20px;
+    width: 35%;
+    height: 35%;
+}
+
+.logo {
+    margin-bottom: 1%;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.table > tbody > tr > td {
+    vertical-align: middle;
+}
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em)
+{
+    .date {
+        display: none;
+    }
+
+    img#ecommera {
+        margin-top: 23px;
+    }
+
+    img#vratsa {
+        margin-top: 15px;
+    }
+}
+
+@media only screen and (max-width: 40em) {
+    .date {
+        display: none;
+    }
+
+    img#ecommera {
+        margin-top: 13px;
+    }
+
+    img#vratsa {
+        margin-top: 7px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .main {
+        border-right: none!important;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .textContainer h2 {
+        font-size: 30px;
+    }
+
+}
